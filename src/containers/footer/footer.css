@@ -1,0 +1,146 @@
+.newageux__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.newageux__footer-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.newageux__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.newageux__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+
+.newageux__footer-btn p {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    word-spacing: 2px;
+}
+
+.newageux__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.newageux__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.newageux__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.newageux__footer-links_logo img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.newageux__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.newageux__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.newageux__footer-links_div h4 {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.newageux__footer-links_div p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.newageux__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.newageux__footer-copyright p {
+font-family: var(--font-family);
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+        .newageux__footer-heading h1 {
+            font-size: 44px;
+            line-height: 50px;
+        }
+}
+
+@media screen and (max-width: 550px) {
+        .newageux__footer-heading h1 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+
+        .newageux__footer-links div {
+            margin: 1rem 0;;
+        }
+
+        .newageux__footer-btn p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+}
+
+@media screen and (max-width: 550px) {
+    .newageux__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+
+
+
